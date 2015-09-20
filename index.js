@@ -37,7 +37,7 @@ function drawBasic (dataset) {
     chartArea: {
     },
     hAxis: {
-      title: 'Number of contributions',
+      title: 'Editcount',
       minValue: 0
     },
     vAxis: {
@@ -88,7 +88,7 @@ function requestData () {
 
     var dataset = data;
     dataset.reverse();
-    dataset.push(['User', 'Contributions']);
+    dataset.push(['Users', 'Editcount']);
     dataset.reverse();
 
     drawBasic(dataset);
