@@ -1,0 +1,15 @@
+{
+  "name": "contrib-visualize",
+  "version": "1.0.0",
+  "description": "Visualize the contributions made by everyone to the MetaKGP wiki",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siddharth Kannan <kannan.siddharth12@gmail.com> (http://icyflame.github.io)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "request": "^2.62.0"
+  }
+}
